@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjut.cmsservice.mapper.CrmBannerMapper">
+
+    <select id="getBannerList" resultType="com.zjut.cmsservice.entity.CrmBanner">
+        select * from crm_banner order by gmt_modified desc limit 8
+    </select>
+
+</mapper>

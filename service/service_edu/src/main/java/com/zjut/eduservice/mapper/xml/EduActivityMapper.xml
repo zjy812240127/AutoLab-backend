@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjut.eduservice.mapper.EduActivityMapper">
+
+    <select id="getHotActivity" resultType="com.zjut.eduservice.entity.EduActivity">
+        select * from edu_activity order by gmt_create desc limit 8
+    </select>
+
+</mapper>

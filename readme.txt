@@ -1,15 +1,20 @@
-���ֿ��еĳ���Ϊ��Ŀ�ĺ�˳���
-��Ŀ��ǰ̨������������ڲֿ�AutoLab-admin-frontend
-��Ŀ��ǰ��ҳ������ڲֿ�AutoLab-member-frontend
+本仓库中的程序为项目的后端程序
+
+项目的前台管理界面程序在仓库AutoLab-admin-frontend     
+https://github.com/zjy812240127/AutoLab-admin-frontend
+
+项目的前端页面程序在仓库AutoLab-member-frontend
+https://github.com/zjy812240127/AutoLab-member-frontend
+
 
 ===============================================
-ע���������ļ�MySQL��Redis���ݿ��Լ�Nacosע��/�������ģ�������OSS���ã�Spring.mail����Ҫ�ĳ����Լ�����Ϣ
+注意主配置文件MySQL，Redis数据库以及Nacos注册/配置中心，阿里云OSS配置，Spring.mail配置要改成你自己的信息
 
-MyBatis���򹤳������ݿ�ҲҪ�������Լ�����Ϣ
+MyBatis逆向工程中数据库也要换成你自己的信息
 
-MySQL���ݿ��ļ�ΪMySQL.sql
+MySQL数据库文件为MySQL.sql
 ===============================================
 
-��Ŀ����ļܹ�ͼ�Լ���������ģ��Ŀ��ͼ��structure�ļ�����
+项目整体的架构图以及各个功能模块的框架图在structure文件夹中
 
 
